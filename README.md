@@ -23,16 +23,52 @@ Provided that you agree that it should replicate the [node.js/crypto](http://nod
 
 ### Hash Algorithms
 
-  ~~md4~~
-  ~~md5~~
-  mdc2
-  ripemd
-  ripemd160
-  rmd160
-  sha
-  ~~sha1~~
-  ~~sha224~~
-  ~~sha256~~
-  sha384
-  sha512
-  whirlpool
+  * ~~md4~~
+  * ~~md5~~
+  * mdc2
+  * ripemd
+  * ripemd160
+  * rmd160
+  * sha
+  * ~~sha1~~
+  * ~~sha224~~
+  * ~~sha256~~
+  * sha384
+  * sha512
+  * whirlpool
+
+### Cipher Algorithms
+
+  * AES
+    * CBC
+    * CFB
+    * CFB1
+    * CFB8
+    * ECB 
+    * OFB
+    * GCM
+  * Blowfish
+    * CBC
+    * CFB
+    * ECB
+    * OFB
+  * Cast
+    * CBC
+    * ECB
+    * OFB
+  * DES
+    * CBC
+    * CFB
+    * ECB
+  * TrippleDES
+  * Idea
+    * CBC
+    * OFB
+    * CFB
+    * ECB
+  * RC2
+    * CBC
+    * ECB
+    * OFB
+  * RC4
+
