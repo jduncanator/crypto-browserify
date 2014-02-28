@@ -37,38 +37,98 @@ Provided that you agree that it should replicate the [node.js/crypto](http://nod
   * sha512
   * whirlpool
 
-### Cipher Algorithms
+### Cipher Algorithms (Supported as of 1.0.1e)
 
   * AES
-    * CBC
-    * CFB
-    * CFB1
-    * CFB8
-    * ECB 
-    * OFB
-    * GCM
+    * AES-128-CBC
+    * AES-128-CFB
+    * AES-128-CFB1
+    * AES-128-CFB8
+    * AES-128-CTR
+    * AES-128-ECB
+    * AES-128-OFB
+    * AES-128-XTS
+    * AES-192-CBC
+    * AES-192-CFB
+    * AES-192-CFB1
+    * AES-192-CFB8
+    * AES-192-CTR
+    * AES-192-ECB
+    * AES-192-OFB
+    * AES-256-CBC
+    * AES-256-CFB
+    * AES-256-CFB1
+    * AES-256-CFB8
+    * AES-256-CTR
+    * AES-256-ECB
+    * AES-256-OFB
+    * AES-256-XTS
   * Blowfish
-    * CBC
-    * CFB
-    * ECB
-    * OFB
+    * BF-CBC
+    * BF-CFB
+    * BF-ECB
+    * BF-OFB
+  * Camellia
+    * CAMELLIA-128-CBC
+    * CAMELLIA-128-CFB
+    * CAMELLIA-128-CFB1
+    * CAMELLIA-128-CFB8
+    * CAMELLIA-128-ECB
+    * CAMELLIA-128-OFB
+    * CAMELLIA-192-CBC
+    * CAMELLIA-192-CFB
+    * CAMELLIA-192-CFB1
+    * CAMELLIA-192-CFB8
+    * CAMELLIA-192-ECB
+    * CAMELLIA-192-OFB
+    * CAMELLIA-256-CBC
+    * CAMELLIA-256-CFB
+    * CAMELLIA-256-CFB1
+    * CAMELLIA-256-CFB8
+    * CAMELLIA-256-ECB
+    * CAMELLIA-256-OFB
   * Cast
-    * CBC
-    * ECB
-    * OFB
+    * CAST5-CBC
+    * CAST5-CFB
+    * CAST5-ECB
+    * CAST5-OFB
   * DES
-    * CBC
-    * CFB
-    * ECB
-  * TrippleDES
+    * DES-CBC
+    * DES-CFB
+    * DES-CFB1
+    * DES-CFB8
+    * DES-ECB
+    * DES-OFB
+  * TripleDES
+    * DES-EDE
+    * DES-EDE-CBC
+    * DES-EDE-CFB
+    * DES-EDE-OFB
+    * DES-EDE3
+    * DES-EDE3-CBC
+    * DES-EDE3-CFB
+    * DES-EDE3-CFB1
+    * DES-EDE3-CFB8
+    * DES-EDE3-OFB
+  * DESX
+    * DESX-CBC
   * Idea
-    * CBC
-    * OFB
-    * CFB
-    * ECB
+    * IDEA-CBC
+    * IDEA-CFB
+    * IDEA-ECB
+    * IDEA-OFB
   * RC2
-    * CBC
-    * ECB
-    * OFB
+    * RC2-40-CBC
+    * RC2-64-CBC
+    * RC2-CBC
+    * RC2-CFB
+    * RC2-ECB
+    * RC2-OFB
   * RC4
-
+    * RC4-40
+    * RC4-HMAC-MD5
+  * SEED
+    * SEED-CBC
+    * SEED-CFB
+    * SEED-ECB
+    * SEED-OFB
